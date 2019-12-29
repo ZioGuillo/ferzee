@@ -1,14 +1,14 @@
 //Hook up the tweet display
 
 $(document).ready(function() {
-						   
+
 	$(".countdown").countdown({
-				date: "27 dec 2019 18:30:00",
+				date: "14 feb 2020 00:00:00",
 				format: "on"
 			},
-			
+
 			function() {
 				// callback function
 			});
 
-});	
+});
